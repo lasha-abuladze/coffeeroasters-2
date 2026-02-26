@@ -1,0 +1,16 @@
+{
+  "name": "coffeeroasters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "coffeeroasters.js",
+  "scripts": {
+    "sass": "sass --watch coffeeroasters.scss coffeeroasters.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
