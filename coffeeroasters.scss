@@ -1,5 +1,10 @@
 
-///// F O N T S /////////
+
+$main-white-background-color: #F2F2F2;
+$white-font: #FEFCF7;
+$dark-grey: #333D4B;
+$light-grey: #83888F;
+$main-green: #0E8784;
  
 
 $font-barlow: "Barlow", sans-serif;
@@ -34,3 +39,80 @@ $font-fraunces: "Fraunces", sans-serif;
     font-style: italic;
 }
 
+
+
+
+
+
+
+///// general styles  // / / 
+
+.display-none {
+    display: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.btn-gen {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+////////
+
+
+
+body {
+
+    background-color: $main-white-background-color;
+    font-family: $font-barlow;
+    padding: 32px 24px 72px 24px;
+    box-sizing:  border-box;
+
+    .main-header {
+        @include flex-row();
+        justify-content: space-between;
+
+        .company-logo-name {
+            @include flex-row();
+            gap: 6px;
+
+            .company-logo-img {
+                width: 24px;
+                height: 24px;
+            }
+
+            .company-name {
+                font-family: $font-fraunces;
+                font-weight: 700;
+                color: $dark-grey;
+            }
+
+        }
+
+        .main-navigation {
+            display: none;
+        }
+
+    }
+}

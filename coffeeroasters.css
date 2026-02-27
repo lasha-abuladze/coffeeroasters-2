@@ -22,5 +22,52 @@
   font-weight: 100 900;
   font-style: italic;
 }
+.display-none {
+  display: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.btn-gen {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: "Barlow", sans-serif;
+  padding: 32px 24px 72px 24px;
+  box-sizing: border-box;
+}
+body .main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+body .main-header .company-logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+body .main-header .company-logo-name .company-logo-img {
+  width: 24px;
+  height: 24px;
+}
+body .main-header .company-logo-name .company-name {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #333D4B;
+}
+body .main-header .main-navigation {
+  display: none;
+}
 
 /*# sourceMappingURL=coffeeroasters.css.map */
