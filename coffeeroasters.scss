@@ -76,6 +76,7 @@ $font-fraunces: "Fraunces", sans-serif;
     border-radius: 6px;
 }
 
+
 @mixin flex-row {
     display: flex;
     flex-direction: row;
@@ -188,5 +189,62 @@ body {
                 margin-bottom: 42px;
             }
         }
+    }
+
+    .section-our-collection {
+        text-align: center;
+        margin-top: 140px;
+        color: $dark-grey;
+
+        .section-header {
+            position: relative;
+            margin-bottom: 42px;
+
+            h2 {
+                font-size: 45px;
+                font-weight: 700;
+                font-family: $font-fraunces;
+            }
+
+            .gradient {
+                width: 100%;
+                height: 40px;
+                position: absolute;
+                bottom: 0;
+                background: linear-gradient(to top, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0.3));
+                z-index: 2;
+            }
+        }
+
+        .product-list {
+
+            .product {
+                margin-bottom: 65px;
+                &:last-child {
+                    margin: 0;
+                }
+                
+                .product-img {
+                    width: 200px;
+                    margin-bottom: 40px;
+                }
+
+                .product-name {
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: $font-fraunces;
+                    margin-bottom: 25px;
+                }
+
+                .about-product {
+                    max-width: 280px;
+                    margin: 0 auto;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+        }
+
+
     }
 }
