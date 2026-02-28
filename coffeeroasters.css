@@ -39,6 +39,17 @@
   cursor: pointer;
 }
 
+.btn-create-plan {
+  width: 217px;
+  height: 56px;
+  background-color: #0E8784;
+  color: #FEFCF7;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  border-radius: 6px;
+}
+
 body {
   background-color: #F2F2F2;
   font-family: "Barlow", sans-serif;
@@ -95,6 +106,34 @@ body .main-header .main-navigation ul a {
 }
 body .main-header .close-open-btns {
   z-index: 2;
+}
+body .main-section {
+  margin-top: 40px;
+}
+body .main-section .section-introduction {
+  text-align: center;
+  padding: 105px 28px 100px 28px;
+  box-sizing: border-box;
+  color: #FEFCF7;
+  background-color: #83888F;
+  background-image: url(./assets/home/mobile/image-hero-coffeepress.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .main-section .section-introduction h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  margin-bottom: 37px;
+}
+body .main-section .section-introduction h1 span {
+  display: block;
+}
+body .main-section .section-introduction p {
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.7;
+  margin-bottom: 42px;
 }
 
 /*# sourceMappingURL=coffeeroasters.css.map */
