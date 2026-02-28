@@ -179,5 +179,65 @@ body .section-our-collection .product-list .product .about-product {
   font-size: 15px;
   line-height: 25px;
 }
+body .section-choose-us {
+  margin-top: 140px;
+  text-align: center;
+  background-color: #2C343E;
+  border-radius: 10px;
+  padding: 100px 24px 614px 24px;
+  box-sizing: border-box;
+  color: #FEFCF7;
+  position: relative;
+}
+body .section-choose-us .section-header {
+  margin-bottom: 67px;
+}
+body .section-choose-us .section-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  margin-bottom: 30px;
+}
+body .section-choose-us .section-header p {
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 279px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+body .section-choose-us .benefits-list {
+  position: absolute;
+  width: calc(100% - 48px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+body .section-choose-us .benefits-list .benefit-card {
+  background-color: #0E8784;
+  width: 100%;
+  height: 382px;
+  margin-bottom: 24px;
+  padding: 70px 0px 57px 0px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+body .section-choose-us .benefits-list .benefit-card:last-child {
+  margin: 0;
+}
+body .section-choose-us .benefits-list .benefit-card .benefit-card-img {
+  width: 72px;
+  margin-bottom: 65px;
+}
+body .section-choose-us .benefits-list .benefit-card .benefit-name {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  margin-bottom: 25px;
+}
+body .section-choose-us .benefits-list .benefit-card .benefit-description {
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 212px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=coffeeroasters.css.map */
