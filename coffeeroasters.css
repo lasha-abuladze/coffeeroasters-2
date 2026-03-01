@@ -50,6 +50,25 @@
   border-radius: 6px;
 }
 
+.company-logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.company-logo-name .company-logo-img {
+  width: 24px;
+  height: 24px;
+}
+.company-logo-name .company-name {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #333D4B;
+}
+.company-logo-name {
+  z-index: 2;
+}
+
 body {
   background-color: #F2F2F2;
   font-family: "Barlow", sans-serif;
@@ -61,24 +80,6 @@ body .main-header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-body .main-header .company-logo-name {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 6px;
-}
-body .main-header .company-logo-name .company-logo-img {
-  width: 24px;
-  height: 24px;
-}
-body .main-header .company-logo-name .company-name {
-  font-family: "Fraunces", sans-serif;
-  font-weight: 700;
-  color: #333D4B;
-}
-body .main-header .company-logo-name {
-  z-index: 2;
 }
 body .main-header .main-navigation {
   position: absolute;
@@ -281,6 +282,41 @@ body .main-section .section-how-it-works .order-steps-list .about-order-step .st
   line-height: 25px;
   max-width: 327px;
   margin: 0 auto;
+}
+body .main-footer {
+  margin-top: 120px;
+  text-align: center;
+  background-color: #2C343E;
+  padding: 56px;
+  box-sizing: border-box;
+}
+body .main-footer .footer-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+body .main-footer .footer-navigation .company-name {
+  color: #FEFCF7;
+}
+body .main-footer .footer-navigation ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 52px;
+}
+body .main-footer .footer-navigation ul a {
+  font-size: 12px;
+  color: #83888F;
+  text-transform: uppercase;
+}
+body .main-footer .social-media-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
 /*# sourceMappingURL=coffeeroasters.css.map */
