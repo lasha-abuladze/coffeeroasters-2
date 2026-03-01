@@ -185,7 +185,7 @@ body .main-section .section-choose-us {
   text-align: center;
   background-color: #2C343E;
   border-radius: 10px;
-  padding: 100px 24px 614px 24px;
+  padding: 67px 24px 614px 24px;
   box-sizing: border-box;
   color: #FEFCF7;
   position: relative;
@@ -373,6 +373,72 @@ body .main-footer .social-media-list {
   body .main-section .section-introduction p {
     max-width: 368px;
     margin-bottom: 43px;
+  }
+  body .main-section .section-our-collection .section-header {
+    margin: 0;
+  }
+  body .main-section .section-our-collection .section-header h2 {
+    font-size: 115px;
+  }
+  body .main-section .section-our-collection .section-header .gradient {
+    height: 100px;
+    z-index: 0;
+  }
+  body .main-section .section-our-collection .product-list {
+    transform: translateY(-30px);
+  }
+  body .main-section .section-our-collection .product-list .product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  body .main-section .section-our-collection .product-list .product .product-img {
+    width: 280px;
+    margin: 0;
+  }
+  body .main-section .section-our-collection .product-list .product .product-name {
+    margin-bottom: 34px;
+  }
+  body .main-section .section-our-collection .product-list .product .about-product {
+    text-align: left;
+  }
+  body .main-section .section-choose-us {
+    margin-top: 150px;
+    padding: 67px 57px 298px 57px;
+  }
+  body .main-section .section-choose-us .section-header {
+    margin-bottom: 72px;
+  }
+  body .main-section .section-choose-us .section-header h2 {
+    font-size: 32px;
+    margin-bottom: 36px;
+  }
+  body .main-section .section-choose-us .section-header p {
+    max-width: 495px;
+  }
+  body .main-section .section-choose-us .benefits-list {
+    width: calc(100% - 114px);
+  }
+  body .main-section .section-choose-us .benefits-list .benefit-card {
+    background-color: #0E8784;
+    height: 180px;
+    padding: 70px 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    text-align: left;
+  }
+  body .main-section .section-choose-us .benefits-list .benefit-card:last-child {
+    margin: 0;
+  }
+  body .main-section .section-choose-us .benefits-list .benefit-card .benefit-card-img {
+    margin: 0;
+  }
+  body .main-section .section-choose-us .benefits-list .benefit-card .benefit-description {
+    max-width: 300px;
   }
 }
 
