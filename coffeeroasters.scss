@@ -190,134 +190,190 @@ body {
                 margin-bottom: 42px;
             }
         }
-    }
 
-    .section-our-collection {
-        text-align: center;
-        margin-top: 140px;
-        color: $dark-grey;
 
-        .section-header {
-            position: relative;
-            margin-bottom: 42px;
-
-            h2 {
-                font-size: 45px;
-                font-weight: 700;
-                font-family: $font-fraunces;
-            }
-
-            .gradient {
-                width: 100%;
-                height: 40px;
-                position: absolute;
-                bottom: 0;
-                background: linear-gradient(to top, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0.3));
-                z-index: 2;
-            }
-        }
-
-        .product-list {
-
-            .product {
-                margin-bottom: 65px;
-                &:last-child {
-                    margin: 0;
-                }
-                
-                .product-img {
-                    width: 200px;
-                    margin-bottom: 40px;
-                }
-
-                .product-name {
-                    font-size: 24px;
+        .section-our-collection {
+            text-align: center;
+            margin-top: 140px;
+            color: $dark-grey;
+    
+            .section-header {
+                position: relative;
+                margin-bottom: 42px;
+    
+                h2 {
+                    font-size: 45px;
                     font-weight: 700;
                     font-family: $font-fraunces;
-                    margin-bottom: 25px;
                 }
-
-                .about-product {
-                    max-width: 280px;
-                    margin: 0 auto;
-                    font-size: 15px;
-                    line-height: 25px;
+    
+                .gradient {
+                    width: 100%;
+                    height: 40px;
+                    position: absolute;
+                    bottom: 0;
+                    background: linear-gradient(to top, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0.3));
+                    z-index: 2;
                 }
             }
-        }
-
-
-    }
-
-    .section-choose-us {
-        margin-top: 140px;
-        text-align: center;
-        background-color: $darker-grey;
-        border-radius: 10px;
-        padding:  100px 24px 614px 24px;
-        box-sizing: border-box;
-        color: $white-font;
-        position: relative;
-
-        .section-header {
-            margin-bottom: 67px;
-            h2 {
-                font-size: 28px;
-                font-weight: 700;
-                font-family: $font-fraunces;
-                margin-bottom: 30px;
-            }
-
-            p {
-                font-size: 15px;
-                line-height: 25px;
-                max-width: 279px;
-                margin: 0 auto;
-                opacity: 0.7;
-            }
-        }
-
-        .benefits-list {
-
-            position: absolute;
-            width: calc(100% - 48px);
-            left: 50%;
-            transform: translateX(-50%);
-
-            .benefit-card {
-                background-color: $main-green;
-                width: 100%;
-                height: 382px;
-                margin-bottom: 24px;
-                padding:  70px 0px 57px 0px;
-                box-sizing: border-box;
-                border-radius: 8px;
-                
-                &:last-child {
-                    margin: 0;
-                }
-                
-
-                .benefit-card-img {
-                    width: 72px;
-                    // height: 72px;
+    
+            .product-list {
+    
+                .product {
                     margin-bottom: 65px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                    
+                    .product-img {
+                        width: 200px;
+                        margin-bottom: 40px;
+                    }
+    
+                    .product-name {
+                        font-size: 24px;
+                        font-weight: 700;
+                        font-family: $font-fraunces;
+                        margin-bottom: 25px;
+                    }
+    
+                    .about-product {
+                        max-width: 280px;
+                        margin: 0 auto;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
                 }
+            }
+    
+    
+        }
 
-                .benefit-name {
-                    font-size: 24px;
+
+        .section-choose-us {
+            margin-top: 140px;
+            text-align: center;
+            background-color: $darker-grey;
+            border-radius: 10px;
+            padding:  100px 24px 614px 24px;
+            box-sizing: border-box;
+            color: $white-font;
+            position: relative;
+    
+            .section-header {
+                margin-bottom: 67px;
+                h2 {
+                    font-size: 28px;
                     font-weight: 700;
                     font-family: $font-fraunces;
-                    margin-bottom: 25px;
+                    margin-bottom: 30px;
                 }
-
-                .benefit-description {
+    
+                p {
                     font-size: 15px;
                     line-height: 25px;
-                    max-width: 212px;
+                    max-width: 279px;
                     margin: 0 auto;
+                    opacity: 0.7;
+                }
+            }
+    
+            .benefits-list {
+    
+                position: absolute;
+                width: calc(100% - 48px);
+                left: 50%;
+                transform: translateX(-50%);
+    
+                .benefit-card {
+                    background-color: $main-green;
+                    width: 100%;
+                    height: 382px;
+                    margin-bottom: 24px;
+                    padding:  70px 0px 57px 0px;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                    
+                    &:last-child {
+                        margin: 0;
+                    }
+                    
+    
+                    .benefit-card-img {
+                        width: 72px;
+                        // height: 72px;
+                        margin-bottom: 65px;
+                    }
+    
+                    .benefit-name {
+                        font-size: 24px;
+                        font-weight: 700;
+                        font-family: $font-fraunces;
+                        margin-bottom: 25px;
+                    }
+    
+                    .benefit-description {
+                        font-size: 15px;
+                        line-height: 25px;
+                        max-width: 212px;
+                        margin: 0 auto;
+                    }
                 }
             }
         }
+
+        .section-how-it-works {
+            margin-top: 700px;
+            text-align: center;
+
+            h2 {
+                font-size: 24px;
+                font-weight: 700;
+                font-family: $font-fraunces;
+                color: $light-grey;
+                margin-bottom: 97px;
+            }
+
+            .section-decoration {
+                display: none;
+            }
+
+            .order-steps-list {
+
+                @include flex-column();
+                gap: 70px;
+                margin-bottom: 82px;
+
+                .about-order-step {
+                    color: $dark-grey;
+
+                    span {
+                        font-size: 72px;
+                        font-family: $font-fraunces;
+                        font-weight: 700;
+                        color: #FDD6BA;
+                    }
+
+                    .step-name {
+                        margin-top: 36px;
+                        margin-bottom: 32px;
+                        font-size: 28px;
+                        font-weight: 700;
+                        font-family: $font-fraunces;
+                    }
+
+                    .step-description {
+                        font-size: 15px;
+                        line-height: 25px;
+                        max-width: 327px;
+                        margin: 0 auto;
+                    }
+                }
+
+            }
+
+        }
     }
+
+
 }

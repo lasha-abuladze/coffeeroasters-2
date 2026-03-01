@@ -135,21 +135,21 @@ body .main-section .section-introduction p {
   opacity: 0.7;
   margin-bottom: 42px;
 }
-body .section-our-collection {
+body .main-section .section-our-collection {
   text-align: center;
   margin-top: 140px;
   color: #333D4B;
 }
-body .section-our-collection .section-header {
+body .main-section .section-our-collection .section-header {
   position: relative;
   margin-bottom: 42px;
 }
-body .section-our-collection .section-header h2 {
+body .main-section .section-our-collection .section-header h2 {
   font-size: 45px;
   font-weight: 700;
   font-family: "Fraunces", sans-serif;
 }
-body .section-our-collection .section-header .gradient {
+body .main-section .section-our-collection .section-header .gradient {
   width: 100%;
   height: 40px;
   position: absolute;
@@ -157,29 +157,29 @@ body .section-our-collection .section-header .gradient {
   background: linear-gradient(to top, rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0.3));
   z-index: 2;
 }
-body .section-our-collection .product-list .product {
+body .main-section .section-our-collection .product-list .product {
   margin-bottom: 65px;
 }
-body .section-our-collection .product-list .product:last-child {
+body .main-section .section-our-collection .product-list .product:last-child {
   margin: 0;
 }
-body .section-our-collection .product-list .product .product-img {
+body .main-section .section-our-collection .product-list .product .product-img {
   width: 200px;
   margin-bottom: 40px;
 }
-body .section-our-collection .product-list .product .product-name {
+body .main-section .section-our-collection .product-list .product .product-name {
   font-size: 24px;
   font-weight: 700;
   font-family: "Fraunces", sans-serif;
   margin-bottom: 25px;
 }
-body .section-our-collection .product-list .product .about-product {
+body .main-section .section-our-collection .product-list .product .about-product {
   max-width: 280px;
   margin: 0 auto;
   font-size: 15px;
   line-height: 25px;
 }
-body .section-choose-us {
+body .main-section .section-choose-us {
   margin-top: 140px;
   text-align: center;
   background-color: #2C343E;
@@ -189,29 +189,29 @@ body .section-choose-us {
   color: #FEFCF7;
   position: relative;
 }
-body .section-choose-us .section-header {
+body .main-section .section-choose-us .section-header {
   margin-bottom: 67px;
 }
-body .section-choose-us .section-header h2 {
+body .main-section .section-choose-us .section-header h2 {
   font-size: 28px;
   font-weight: 700;
   font-family: "Fraunces", sans-serif;
   margin-bottom: 30px;
 }
-body .section-choose-us .section-header p {
+body .main-section .section-choose-us .section-header p {
   font-size: 15px;
   line-height: 25px;
   max-width: 279px;
   margin: 0 auto;
   opacity: 0.7;
 }
-body .section-choose-us .benefits-list {
+body .main-section .section-choose-us .benefits-list {
   position: absolute;
   width: calc(100% - 48px);
   left: 50%;
   transform: translateX(-50%);
 }
-body .section-choose-us .benefits-list .benefit-card {
+body .main-section .section-choose-us .benefits-list .benefit-card {
   background-color: #0E8784;
   width: 100%;
   height: 382px;
@@ -220,23 +220,66 @@ body .section-choose-us .benefits-list .benefit-card {
   box-sizing: border-box;
   border-radius: 8px;
 }
-body .section-choose-us .benefits-list .benefit-card:last-child {
+body .main-section .section-choose-us .benefits-list .benefit-card:last-child {
   margin: 0;
 }
-body .section-choose-us .benefits-list .benefit-card .benefit-card-img {
+body .main-section .section-choose-us .benefits-list .benefit-card .benefit-card-img {
   width: 72px;
   margin-bottom: 65px;
 }
-body .section-choose-us .benefits-list .benefit-card .benefit-name {
+body .main-section .section-choose-us .benefits-list .benefit-card .benefit-name {
   font-size: 24px;
   font-weight: 700;
   font-family: "Fraunces", sans-serif;
   margin-bottom: 25px;
 }
-body .section-choose-us .benefits-list .benefit-card .benefit-description {
+body .main-section .section-choose-us .benefits-list .benefit-card .benefit-description {
   font-size: 15px;
   line-height: 25px;
   max-width: 212px;
+  margin: 0 auto;
+}
+body .main-section .section-how-it-works {
+  margin-top: 700px;
+  text-align: center;
+}
+body .main-section .section-how-it-works h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  color: #83888F;
+  margin-bottom: 97px;
+}
+body .main-section .section-how-it-works .section-decoration {
+  display: none;
+}
+body .main-section .section-how-it-works .order-steps-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 82px;
+}
+body .main-section .section-how-it-works .order-steps-list .about-order-step {
+  color: #333D4B;
+}
+body .main-section .section-how-it-works .order-steps-list .about-order-step span {
+  font-size: 72px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #FDD6BA;
+}
+body .main-section .section-how-it-works .order-steps-list .about-order-step .step-name {
+  margin-top: 36px;
+  margin-bottom: 32px;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+}
+body .main-section .section-how-it-works .order-steps-list .about-order-step .step-description {
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 327px;
   margin: 0 auto;
 }
 
