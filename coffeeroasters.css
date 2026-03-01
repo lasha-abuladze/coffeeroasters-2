@@ -64,6 +64,7 @@
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
   color: #333D4B;
+  font-size: 18px;
 }
 .company-logo-name {
   z-index: 2;
@@ -79,7 +80,7 @@ body .main-header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 body .main-header .main-navigation {
   position: absolute;
@@ -116,7 +117,6 @@ body .main-section .section-introduction {
   padding: 105px 28px 100px 28px;
   box-sizing: border-box;
   color: #FEFCF7;
-  background-color: #83888F;
   background-image: url(./assets/home/mobile/image-hero-coffeepress.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -317,6 +317,63 @@ body .main-footer .social-media-list {
   align-items: center;
   justify-content: center;
   gap: 24px;
+}
+
+@media (min-width: 700px) {
+  .company-logo-name {
+    gap: 8px;
+  }
+  .company-logo-name .company-name {
+    font-size: 24px;
+  }
+  .company-logo-name .company-logo-img {
+    width: 28px;
+    height: 28px;
+  }
+  body {
+    padding: 40px 52px 72px 52px;
+  }
+  body .main-header {
+    justify-content: space-between !important;
+  }
+  body .main-header .main-navigation {
+    position: static;
+    display: block !important;
+    padding: 0;
+    background: none;
+    height: fit-content;
+    width: fit-content;
+  }
+  body .main-header .main-navigation ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    font-size: 12px;
+  }
+  body .main-header .main-navigation ul a {
+    color: #83888F;
+  }
+  body .main-header .close-open-btns {
+    display: none;
+  }
+  body .main-section {
+    margin-top: 83px;
+  }
+  body .main-section .section-introduction {
+    text-align: left;
+    padding: 110px 60px 104px 60px;
+    background-image: url(./assets/home/tablet/image-hero-coffeepress.jpg);
+    background-position: right;
+  }
+  body .main-section .section-introduction h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  body .main-section .section-introduction p {
+    max-width: 368px;
+    margin-bottom: 43px;
+  }
 }
 
 /*# sourceMappingURL=coffeeroasters.css.map */
