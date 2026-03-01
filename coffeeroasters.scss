@@ -403,6 +403,7 @@ body {
         .footer-navigation {
             @include flex-column();
             gap: 50px;
+            margin-bottom: 52px;
             
             .company-name {
                 color: $white-font;
@@ -411,7 +412,6 @@ body {
             ul {
                 @include flex-column();
                 gap: 30px;
-                margin-bottom: 52px;
                 a {
                     font-size: 12px;
                     color: $light-grey;
@@ -597,7 +597,109 @@ body {
                     }
                 }
             }
+
+            .section-how-it-works {
+                margin-top: 400px;
+                text-align: left;
+
+                h2 {
+                    font-size: 24px;
+                    margin-bottom: 47px;
+                }
+
+                .section-decoration {
+                    @include flex-row();
+                    margin-bottom: 58px;
+
+                    .decoration-cyrcle {
+                        width: 31px;
+                        height: 31px;
+                        border: 2px solid $main-green;
+                        border-radius: 50%;                        
+                    }
+
+                    .decoration-line {
+                        width: 202px;
+                        height: 2px;
+                        background-color: #FDD6BA;
+                    }
+                }
+
+                //////   it has bug
+                .order-steps-list {
+
+                    @include flex-row();
+                    gap: 0;
+                    margin-bottom: 82px;
+
+                    .about-order-step {
+                        color: $dark-grey;
+                        max-width: 198px;
+
+                        span {
+                            font-size: 72px;
+                            font-family: $font-fraunces;
+                            font-weight: 700;
+                            color: #FDD6BA;
+                        }
+
+                        .step-name {
+                            margin-top: 36px;
+                            margin-bottom: 32px;
+                            font-size: 28px;
+                            font-weight: 700;
+                            font-family: $font-fraunces;
+                        }
+
+                        .step-description {
+                            font-size: 15px;
+                            line-height: 25px;
+                            max-width: 327px;
+                            margin: 0 auto;
+                        }
+                    }
+
+                }
+
+            }
         }
+
+        .main-footer {
+            margin-top: 144px;
+            padding: 53px; 
+            
+            .footer-navigation {
+                @include flex-column();
+                gap: 35px;
+                margin-bottom: 68px;
+                
+                .company-name {
+                    color: $white-font;
+                }
+
+                ul {
+                    @include flex-row();
+                    gap: 34px;
+                    
+                    a {
+                        font-size: 12px;
+                        color: $light-grey;
+                        text-transform: uppercase;
+                    }
+                }
+
+
+            }
+
+            .social-media-list {
+                @include flex-row();
+                justify-content: center;
+                gap: 24px;
+            }
+
+
+        }
+        
     }
 
 
