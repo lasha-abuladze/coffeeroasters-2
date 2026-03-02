@@ -365,7 +365,7 @@ body {
                 .about-order-step {
                     color: $dark-grey;
 
-                    span {
+                    .order-number {
                         font-size: 72px;
                         font-family: $font-fraunces;
                         font-weight: 700;
@@ -631,14 +631,14 @@ body {
                     @include flex-row();
                     justify-content: space-between;
                     align-items: start;
-                    gap: 0;
+                    gap: 35px;
                     margin-bottom: 82px;
 
                     .about-order-step {
                         color: $dark-grey;
-                        max-width: 198px;
+                        max-width: 223px;
 
-                        span {
+                        .order-number {
                             font-size: 72px;
                             font-family: $font-fraunces;
                             font-weight: 700;
@@ -705,4 +705,205 @@ body {
     }
 
 
+}
+
+
+
+
+/////  D E S K T O P   S C R E E N   
+
+
+@media (min-width: 1290px) {
+
+    body {
+        padding: 44px 80px 72px 88px;
+
+        .main-header {
+
+            .main-navigation {
+                
+                ul {
+                    gap: 34px;
+                }
+            }
+        }
+
+        .main-section {
+            margin-top: 51px;
+
+            .section-introduction { 
+                text-align: left;
+                padding:  127px 85px 104px 116px;
+                background-image: url(./assets/home/desktop/image-hero-coffeepress.jpg);
+
+                h1 { 
+                    font-size: 72px;
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    max-width: 394px;
+                    margin-bottom: 60px; 
+                }
+            }
+
+            .section-our-collection {
+                margin-top: 198px;
+
+                .section-header {
+        
+                    h2 {
+                        font-size: 200px;
+                    }
+        
+                    .gradient {
+                        height: 320px;
+                    }
+                }
+
+                .product-list {
+                    transform: translateY(-70px);
+                    @include flex-row();
+                    justify-content: space-evenly;
+                    align-items: start;
+
+                    .product {
+
+                        @include flex-column();
+                        justify-content: center;
+
+                        
+                        .product-img {
+                            width: 280px;
+                            margin-bottom: 100px;
+                        }
+        
+                        .product-name {
+                            margin-bottom: 34px;
+                        }
+        
+                        .about-product {
+                            text-align: center;
+                            max-width: 255px;
+                        }
+                    }
+                }
+            }
+
+
+            .section-choose-us {
+                // margin-top: 150px;
+                padding: 108px 85px 220px 85px;
+        
+                .section-header {
+                    margin-bottom: 90px;
+
+                    h2 { 
+                        font-size: 40px;
+                        margin-bottom: 50px;
+                    }
+        
+                    p {
+                        max-width: 535px;
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
+                }
+        
+                .benefits-list {
+        
+                    width: calc(100% - 170px);
+                    @include flex-row();
+                    gap: 30px;
+                    align-items: start;
+                    justify-content: space-between;
+
+                    .benefit-card {
+                        width: 350px;
+                        height: 382px; 
+                        padding: 0;
+
+                        @include flex-column();
+                        justify-content: center;
+                        gap: 65px;
+                        text-align: center;
+        
+                        .benefit-description {
+                            max-width: 255px;
+                        }
+                    }
+                }
+            }
+
+            .section-how-it-works {
+                margin-top: 400px;
+                text-align: left;
+
+                h2 {
+                    font-size: 24px;
+                    margin-bottom: 85px;
+                }
+
+                .section-decoration {
+                    @include flex-row();
+                    margin-bottom: 58px;
+
+                    .decoration-line {
+                        width: 349px;
+                    }
+                }
+
+
+                .order-steps-list {
+
+                    justify-content: start;
+                    gap: 103px;
+                    margin-bottom: 82px;
+
+                    .about-order-step {
+                        color: $dark-grey;
+                        max-width: 260px;
+
+                        .step-name {
+                            margin-top: 36px;
+                            margin-bottom: 32px;
+                            font-size: 28px;
+                            font-weight: 700;
+                            font-family: $font-fraunces;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        .step-description {
+                            font-size: 16px;
+                            line-height: 26px;
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+
+        .main-footer {
+            margin-top: 200px;
+            padding: 85px 47px; 
+            @include flex-row();
+            justify-content: space-between;
+             
+            .footer-navigation {
+                @include flex-row();
+                gap: 104px;
+                margin: 0;
+
+            } 
+        } 
+
+
+    }
 }
