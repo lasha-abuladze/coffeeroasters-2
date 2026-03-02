@@ -629,6 +629,8 @@ body {
                 .order-steps-list {
 
                     @include flex-row();
+                    justify-content: space-between;
+                    align-items: start;
                     gap: 0;
                     margin-bottom: 82px;
 
@@ -689,7 +691,7 @@ body {
                 }
 
 
-            }
+            } 
 
             .social-media-list {
                 @include flex-row();

@@ -469,6 +469,8 @@ body .main-footer .social-media-list {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    align-items: start;
     gap: 0;
     margin-bottom: 82px;
   }
