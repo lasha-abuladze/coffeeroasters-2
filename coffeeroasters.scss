@@ -87,6 +87,11 @@ $font-fraunces: "Fraunces", sans-serif;
     font-weight: 700;
     font-family: $font-fraunces;
     border-radius: 6px;
+
+    &:hover {
+        background-color: #66D2CF;
+        transition: all 0.3s;
+    }
 }
 
 .company-logo-name {
@@ -125,25 +130,6 @@ body {
         @include flex-row();
         justify-content: space-between !important;
 
-        // .company-logo-name {
-        //     @include flex-row();
-        //     gap: 6px;
-
-        //     .company-logo-img {
-        //         width: 24px;
-        //         height: 24px;
-        //     }
-
-        //     .company-name {
-        //         font-family: $font-fraunces;
-        //         font-weight: 700;
-        //         color: $dark-grey;
-        //     }
-
-        //     z-index: 2;
-
-        // }
-
         .main-navigation {
             position: absolute;
             background: linear-gradient(to bottom, rgba(242, 242, 242, 1), rgba(242, 242, 242, 0.1));
@@ -163,6 +149,13 @@ body {
                 font-family: $font-fraunces;
                 text-transform: uppercase;
                 font-weight: 700;
+
+                li:hover {
+                    a {
+                        color: $darker-grey;
+                        transition: all 0.3s;
+                    }
+                }
                 
                 a {
                     color: $dark-grey;
@@ -412,6 +405,14 @@ body {
             ul {
                 @include flex-column();
                 gap: 30px;
+
+                li:hover {
+                    a {
+                        color: $white-font;
+                        transition: all 0.3s;
+                    }
+                }
+
                 a {
                     font-size: 12px;
                     color: $light-grey;
@@ -426,6 +427,13 @@ body {
             @include flex-row();
             justify-content: center;
             gap: 24px;
+
+            li:hover {
+                .svg-icon path {
+                    fill: #FDD6BA;
+                    transition: all 0.3s;
+                }
+            }
         }
 
 

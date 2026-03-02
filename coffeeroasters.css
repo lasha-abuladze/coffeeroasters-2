@@ -49,6 +49,10 @@
   font-family: "Fraunces", sans-serif;
   border-radius: 6px;
 }
+.btn-create-plan:hover {
+  background-color: #66D2CF;
+  transition: all 0.3s;
+}
 
 .company-logo-name {
   display: flex;
@@ -102,6 +106,10 @@ body .main-header .main-navigation ul {
   font-family: "Fraunces", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+body .main-header .main-navigation ul li:hover a {
+  color: #2C343E;
+  transition: all 0.3s;
 }
 body .main-header .main-navigation ul a {
   color: #333D4B;
@@ -306,6 +314,10 @@ body .main-footer .footer-navigation ul {
   align-items: center;
   gap: 30px;
 }
+body .main-footer .footer-navigation ul li:hover a {
+  color: #FEFCF7;
+  transition: all 0.3s;
+}
 body .main-footer .footer-navigation ul a {
   font-size: 12px;
   color: #83888F;
@@ -317,6 +329,10 @@ body .main-footer .social-media-list {
   align-items: center;
   justify-content: center;
   gap: 24px;
+}
+body .main-footer .social-media-list li:hover .svg-icon path {
+  fill: #FDD6BA;
+  transition: all 0.3s;
 }
 
 @media (min-width: 700px) {
