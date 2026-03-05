@@ -4,7 +4,8 @@
   "description": "",
   "main": "coffeeroasters.js",
   "scripts": {
-    "sass": "sass --watch coffeeroasters.scss coffeeroasters.css"
+    "sass": "sass --watch coffeeroasters.scss coffeeroasters.css",
+    "generalStyles" : "sass --watch general.scss general.css"
   },
   "keywords": [],
   "author": "",
