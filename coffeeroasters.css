@@ -144,16 +144,6 @@ body .main-section .section-choose-us .benefits-list .benefit-card .benefit-desc
 body .main-section .section-with-decoration {
   margin-top: 700px;
 }
-body .main-section .section-with-decoration h2 {
-  font-size: 24px;
-  font-weight: 700;
-  font-family: "Fraunces", sans-serif;
-  color: #83888F;
-  margin-bottom: 97px;
-}
-body .main-section .section-with-decoration .articles-list .about-article {
-  color: #333D4B;
-}
 body .main-section .section-with-decoration .articles-list .about-article .article-span {
   font-size: 72px;
   font-family: "Fraunces", sans-serif;
@@ -243,30 +233,6 @@ body .main-section .section-with-decoration .articles-list .about-article .artic
   }
 }
 @media (min-width: 1290px) {
-  body {
-    padding: 44px 80px 72px 88px;
-  }
-  body .main-header .main-navigation ul {
-    gap: 34px;
-  }
-  body .main-section {
-    margin-top: 51px;
-  }
-  body .main-section .section-introduction {
-    text-align: left;
-    padding: 127px 85px 104px 116px;
-    background-image: url(./assets/home/desktop/image-hero-coffeepress.jpg);
-  }
-  body .main-section .section-introduction h1 {
-    font-size: 72px;
-    margin-bottom: 50px;
-  }
-  body .main-section .section-introduction p {
-    font-size: 16px;
-    line-height: 26px;
-    max-width: 394px;
-    margin-bottom: 60px;
-  }
   body .main-section .section-our-collection {
     margin-top: 198px;
   }
@@ -339,60 +305,8 @@ body .main-section .section-with-decoration .articles-list .about-article .artic
   body .main-section .section-choose-us .benefits-list .benefit-card .benefit-description {
     max-width: 255px;
   }
-  body .main-section .section-how-it-works {
-    margin-top: 400px;
-    text-align: left;
-  }
-  body .main-section .section-how-it-works h2 {
-    font-size: 24px;
-    margin-bottom: 85px;
-  }
-  body .main-section .section-how-it-works .section-decoration {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 58px;
-  }
-  body .main-section .section-how-it-works .section-decoration .decoration-line {
-    width: 349px;
-  }
-  body .main-section .section-how-it-works .order-steps-list {
-    justify-content: start;
-    gap: 103px;
-    margin-bottom: 82px;
-  }
-  body .main-section .section-how-it-works .order-steps-list .about-order-step {
-    color: #333D4B;
-    max-width: 260px;
-  }
-  body .main-section .section-how-it-works .order-steps-list .about-order-step .step-name {
-    margin-top: 36px;
-    margin-bottom: 32px;
-    font-size: 28px;
-    font-weight: 700;
-    font-family: "Fraunces", sans-serif;
-  }
-  body .main-section .section-how-it-works .order-steps-list .about-order-step .step-name span {
+  body .main-section .section-how-it-works .order-steps-list .about-article .article-tittle span {
     display: block;
-  }
-  body .main-section .section-how-it-works .order-steps-list .about-order-step .step-description {
-    font-size: 16px;
-    line-height: 26px;
-  }
-  body .main-footer {
-    margin-top: 200px;
-    padding: 85px 47px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  body .main-footer .footer-navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 104px;
-    margin: 0;
   }
 }
 

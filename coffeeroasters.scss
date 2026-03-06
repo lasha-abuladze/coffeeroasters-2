@@ -222,18 +222,9 @@ body {
         .section-with-decoration {
             margin-top: 700px;
 
-            h2 {
-                font-size: 24px;
-                font-weight: 700;
-                font-family: $font-fraunces;
-                color: $light-grey;
-                margin-bottom: 97px;
-            }
-
             .articles-list {
 
                 .about-article{
-                    color: $dark-grey;
 
                     .article-span {
                         font-size: 72px;
@@ -400,38 +391,8 @@ body {
 @media (min-width: 1290px) {
 
     body {
-        padding: 44px 80px 72px 88px;
-
-        .main-header {
-
-            .main-navigation {
-                
-                ul {
-                    gap: 34px;
-                }
-            }
-        }
 
         .main-section {
-            margin-top: 51px;
-
-            .section-introduction { 
-                text-align: left;
-                padding:  127px 85px 104px 116px;
-                background-image: url(./assets/home/desktop/image-hero-coffeepress.jpg);
-
-                h1 { 
-                    font-size: 72px;
-                    margin-bottom: 50px;
-                }
-
-                p {
-                    font-size: 16px;
-                    line-height: 26px;
-                    max-width: 394px;
-                    margin-bottom: 60px; 
-                }
-            }
 
             .section-our-collection {
                 margin-top: 198px;
@@ -522,49 +483,15 @@ body {
             }
 
             .section-how-it-works {
-                margin-top: 400px;
-                text-align: left;
-
-                h2 {
-                    font-size: 24px;
-                    margin-bottom: 85px;
-                }
-
-                .section-decoration {
-                    @include flex-row();
-                    margin-bottom: 58px;
-
-                    .decoration-line {
-                        width: 349px;
-                    }
-                }
-
 
                 .order-steps-list {
 
-                    justify-content: start;
-                    gap: 103px;
-                    margin-bottom: 82px;
+                    .about-article {
 
-                    .about-order-step {
-                        color: $dark-grey;
-                        max-width: 260px;
-
-                        .step-name {
-                            margin-top: 36px;
-                            margin-bottom: 32px;
-                            font-size: 28px;
-                            font-weight: 700;
-                            font-family: $font-fraunces;
-
+                        .article-tittle {
                             span {
                                 display: block;
                             }
-                        }
-
-                        .step-description {
-                            font-size: 16px;
-                            line-height: 26px;
                         }
                     }
 
@@ -572,21 +499,6 @@ body {
 
             }
         }
-
-
-        .main-footer {
-            margin-top: 200px;
-            padding: 85px 47px; 
-            @include flex-row();
-            justify-content: space-between;
-             
-            .footer-navigation {
-                @include flex-row();
-                gap: 104px;
-                margin: 0;
-
-            } 
-        } 
 
 
     }
