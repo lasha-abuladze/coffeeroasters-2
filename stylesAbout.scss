@@ -110,38 +110,96 @@ $font-fraunces: "Fraunces", sans-serif;
 
 
 body {
-    .section-introduction {
-        background-image: url(./assets/about/mobile/image-hero-whitecup.jpg);
-        background-position: right;
-        margin-bottom: 120px;
-    }
 
-    .section--our-commitment {
-        text-align: center;
-        margin-bottom: 205px;
+    .main-section {
 
-        .hero-img {
-            width: 327px;
-            height: 400px;
+        .section-introduction {
+            background-image: url(./assets/about/mobile/image-hero-whitecup.jpg);
+            background-position: right;
+            margin-bottom: 120px;
+        }
+    
+        .section--our-commitment {
+            text-align: center;
+            margin-bottom: 205px;
+    
+            .hero-img {
+                width: 327px;
+                height: 400px;
+                border-radius: 10px;
+                margin-bottom: 60px;
+            }
+    
+            .section-tittle {
+                font-size: 32px;
+                font-family: $font-fraunces;
+                font-weight: 700;
+                color: $darker-grey;
+                margin-bottom: 50px;
+            }
+    
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                color: $dark-grey;
+            }
+             
+        }
+        
+        .section--our-quality {
+            background-color: $dark-grey;
             border-radius: 10px;
-            margin-bottom: 60px;
+            text-align: center;
+            position: relative;
+    
+            padding: 150px 28px 64px 28px;
+            box-sizing: border-box;
+            color: $white-font;
+            margin-bottom: 125px;
+    
+            .section-img {
+                width: 279px;
+                height: 156px;
+                border-radius: 10px;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+    
+            .section-tittle {
+                font-size: 28px;
+                font-family: $font-fraunces;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+    
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                opacity: 0.7;
+            }
         }
 
-        .section-tittle {
-            font-size: 32px;
-            font-family: $font-fraunces;
-            font-weight: 700;
-            color: $darker-grey;
-            margin-bottom: 50px;
+        .section--our-headquarters {
+            .articles-list {
+                
+                span {
+                    display: block;
+                    margin-bottom: 16px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
         }
 
-        p {
-            font-size: 15px;
-            line-height: 25px;
-            color: $dark-grey;
-        }
-         
+
+
     }
+    
+
+
 
 
 }
