@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Barlow";
+  src: url(./fonts/Barlow-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url(./fonts/Barlow-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url(./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf) format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url(./fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf) format("truetype-variations");
+  font-weight: 100 900;
+  font-style: italic;
+}
+.display-none {
+  display: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.btn-gen {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-create-plan {
+  width: 217px;
+  height: 56px;
+  background-color: #0E8784;
+  color: #FEFCF7;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  border-radius: 6px;
+}
+.btn-create-plan:hover {
+  background-color: #66D2CF;
+  transition: all 0.3s;
+}
+
+.company-logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.company-logo-name .company-logo-img {
+  width: 24px;
+  height: 24px;
+}
+.company-logo-name .company-name {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #333D4B;
+  font-size: 18px;
+}
+.company-logo-name {
+  z-index: 2;
+}
+
+body .section-introduction {
+  background-image: url(./assets/about/mobile/image-hero-whitecup.jpg);
+  background-position: right;
+  margin-bottom: 120px;
+}
+body .section--our-commitment {
+  text-align: center;
+  margin-bottom: 205px;
+}
+body .section--our-commitment .hero-img {
+  width: 327px;
+  height: 400px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+body .section--our-commitment .section-tittle {
+  font-size: 32px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #2C343E;
+  margin-bottom: 50px;
+}
+body .section--our-commitment p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #333D4B;
+}
+
+/*# sourceMappingURL=stylesAbout.css.map */
