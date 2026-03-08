@@ -123,10 +123,15 @@ body {
             text-align: center;
             margin-bottom: 205px;
     
-            .hero-img {
+    
+            .hero-img--container {
                 width: 327px;
                 height: 400px;
+                background-image: url(./assets/about/mobile/image-commitment.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
                 border-radius: 10px;
+                margin: auto;
                 margin-bottom: 60px;
             }
     
@@ -157,7 +162,7 @@ body {
             color: $white-font;
             margin-bottom: 125px;
     
-            .section-img {
+            .section-img--container {
                 width: 279px;
                 height: 156px;
                 border-radius: 10px;
@@ -165,6 +170,9 @@ body {
                 top: 0;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                background-image: url(./assets/about/mobile/image-quality.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
             }
     
             .section-tittle {
@@ -199,7 +207,76 @@ body {
     }
     
 
+}
 
 
+// ///  T A B L E T   S C R E E N
+
+@media (min-width: 700px) {
+
+    body {
+
+        .main-section {
+
+            .section-introduction {
+                background-image: url(./assets/about/tablet/image-hero-whitecup.jpg);
+                margin-bottom: 144px;
+            }
+
+
+            .section--our-commitment {
+                @include flex-row();
+                justify-content: space-between;
+                max-width: 850px;
+                margin: auto;
+                margin-bottom: 303px;
+                    
+                .hero-img--container {
+                    width: 281px;
+                    height: 470px;
+                    background-image: url(./assets/about/tablet/image-commitment.jpg);
+                    margin: 0;
+                }
+    
+                .article--our-commitment {
+                    max-width: 339px;
+                    text-align: left;    
+                }
+            }
+
+            .section--our-quality {
+       
+                padding: 233px 76px 70px 76px;
+                box-sizing: border-box;
+                color: $white-font;
+                margin-bottom: 150px;
+
+                .section-img--container {
+                    width: 573px;
+                    height: 320px;
+                    background-image: url(./assets/about/tablet/image-quality.jpg);
+                }
+
+                p {
+                    max-width: 540px;
+                    margin: auto;
+                }
+            }
+
+            .section--our-headquarters {
+                margin: 0 !important;
+
+                .articles-list {
+
+                    .about-article {
+                        width: 323px;
+                    }
+                }
+            }
+        }
+
+
+        
+    }
 
 }

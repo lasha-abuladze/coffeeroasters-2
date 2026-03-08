@@ -83,10 +83,14 @@ body .main-section .section--our-commitment {
   text-align: center;
   margin-bottom: 205px;
 }
-body .main-section .section--our-commitment .hero-img {
+body .main-section .section--our-commitment .hero-img--container {
   width: 327px;
   height: 400px;
+  background-image: url(./assets/about/mobile/image-commitment.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
+  margin: auto;
   margin-bottom: 60px;
 }
 body .main-section .section--our-commitment .section-tittle {
@@ -111,7 +115,7 @@ body .main-section .section--our-quality {
   color: #FEFCF7;
   margin-bottom: 125px;
 }
-body .main-section .section--our-quality .section-img {
+body .main-section .section--our-quality .section-img--container {
   width: 279px;
   height: 156px;
   border-radius: 10px;
@@ -119,6 +123,9 @@ body .main-section .section--our-quality .section-img {
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-image: url(./assets/about/mobile/image-quality.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body .main-section .section--our-quality .section-tittle {
   font-size: 28px;
@@ -137,6 +144,53 @@ body .main-section .section--our-headquarters .articles-list span {
 }
 body .main-section .section--our-headquarters .articles-list span:last-child {
   margin: 0;
+}
+
+@media (min-width: 700px) {
+  body .main-section .section-introduction {
+    background-image: url(./assets/about/tablet/image-hero-whitecup.jpg);
+    margin-bottom: 144px;
+  }
+  body .main-section .section--our-commitment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 303px;
+  }
+  body .main-section .section--our-commitment .hero-img--container {
+    width: 281px;
+    height: 470px;
+    background-image: url(./assets/about/tablet/image-commitment.jpg);
+    margin: 0;
+  }
+  body .main-section .section--our-commitment .article--our-commitment {
+    max-width: 339px;
+    text-align: left;
+  }
+  body .main-section .section--our-quality {
+    padding: 233px 76px 70px 76px;
+    box-sizing: border-box;
+    color: #FEFCF7;
+    margin-bottom: 150px;
+  }
+  body .main-section .section--our-quality .section-img--container {
+    width: 573px;
+    height: 320px;
+    background-image: url(./assets/about/tablet/image-quality.jpg);
+  }
+  body .main-section .section--our-quality p {
+    max-width: 540px;
+    margin: auto;
+  }
+  body .main-section .section--our-headquarters {
+    margin: 0 !important;
+  }
+  body .main-section .section--our-headquarters .articles-list .about-article {
+    width: 323px;
+  }
 }
 
 /*# sourceMappingURL=stylesAbout.css.map */
