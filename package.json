@@ -6,7 +6,8 @@
   "scripts": {
     "sass": "sass --watch coffeeroasters.scss coffeeroasters.css",
     "generalStyles" : "sass --watch general.scss general.css",
-    "stylesAbout": "sass --watch stylesAbout.scss stylesAbout.css"
+    "stylesAbout": "sass --watch stylesAbout.scss stylesAbout.css",
+    "stylesCreatePlan": "sass --watch stylesCreatePlan.scss stylesCreatePlan.css"
   },
   "keywords": [],
   "author": "",
