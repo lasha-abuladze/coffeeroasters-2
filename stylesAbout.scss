@@ -202,8 +202,6 @@ body {
             }
         }
 
-
-
     }
     
 
@@ -247,8 +245,6 @@ body {
             .section--our-quality {
        
                 padding: 233px 76px 70px 76px;
-                box-sizing: border-box;
-                color: $white-font;
                 margin-bottom: 150px;
 
                 .section-img--container {
@@ -279,4 +275,51 @@ body {
         
     }
 
+}
+
+
+@media (min-width: 1290px) {
+
+    body {
+
+        .main-section {
+
+            .section-introduction {
+                background-image: url(./assets/about/desktop/image-hero-whitecup.jpg);
+            }
+
+            .section--our-commitment {
+                max-width: 1110px;
+                margin-bottom: 188px;
+
+                .hero-img--container {
+                    width: 444px;
+                    height: 506px;
+                    background-image: url(./assets/about/desktop/image-commitment.jpg);
+                }
+
+                .article--our-commitment {
+                    max-width: 540px;
+                }
+            }
+
+            .section--our-quality {
+                padding: 98px  86px  183px 86px ;
+                margin-bottom: 150px;                
+                text-align: left;
+
+                .section-img--container {
+                    width: 445px;
+                    height: 474px;
+                    background-image: url(./assets/about/desktop/image-quality.jpg);
+                    left: calc(100% - 86px);
+                    transform: translate(-100%, -88px);
+                }
+
+                p {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
 }

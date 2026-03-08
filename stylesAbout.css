@@ -172,8 +172,6 @@ body .main-section .section--our-headquarters .articles-list span:last-child {
   }
   body .main-section .section--our-quality {
     padding: 233px 76px 70px 76px;
-    box-sizing: border-box;
-    color: #FEFCF7;
     margin-bottom: 150px;
   }
   body .main-section .section--our-quality .section-img--container {
@@ -190,6 +188,38 @@ body .main-section .section--our-headquarters .articles-list span:last-child {
   }
   body .main-section .section--our-headquarters .articles-list .about-article {
     width: 323px;
+  }
+}
+@media (min-width: 1290px) {
+  body .main-section .section-introduction {
+    background-image: url(./assets/about/desktop/image-hero-whitecup.jpg);
+  }
+  body .main-section .section--our-commitment {
+    max-width: 1110px;
+    margin-bottom: 188px;
+  }
+  body .main-section .section--our-commitment .hero-img--container {
+    width: 444px;
+    height: 506px;
+    background-image: url(./assets/about/desktop/image-commitment.jpg);
+  }
+  body .main-section .section--our-commitment .article--our-commitment {
+    max-width: 540px;
+  }
+  body .main-section .section--our-quality {
+    padding: 98px 86px 183px 86px;
+    margin-bottom: 150px;
+    text-align: left;
+  }
+  body .main-section .section--our-quality .section-img--container {
+    width: 445px;
+    height: 474px;
+    background-image: url(./assets/about/desktop/image-quality.jpg);
+    left: calc(100% - 86px);
+    transform: translate(-100%, -88px);
+  }
+  body .main-section .section--our-quality p {
+    margin-left: 0;
   }
 }
 
