@@ -150,6 +150,120 @@ body {
 
         }
 
+        .section-create-plan {
+            margin-top: 125px;
+
+            .section-aside {
+                display: none;
+            }
+            
+            .order-customization-form {
+
+                @include flex-column();
+                gap: 100px;
+                
+                .form-div {
+
+                    .question-container {
+                        @include flex-row();
+                        justify-content: space-between;
+
+                        h3 {
+                            font-family: $font-fraunces;
+                            font-size: 24px;
+                            color: $light-grey;
+                            font-weight: 700;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        .arrow-icon {
+                            transform: rotate(-180deg);
+                        }
+                    }
+
+                    .inputs-container {
+                        margin-top: 37px;
+                        @include flex-column();
+                        gap: 15px;
+
+                        .inp-label {
+                            background-color: #eee8dd;
+                            display: block;
+                            position: relative;
+                            padding: 33px 25px;
+                            box-sizing: border-box;
+                            border-radius: 8px;
+                            color: $dark-grey;
+                            cursor: pointer;
+                            transition: all 0.3s;
+
+                            h4 {
+                                font-size: 24px;
+                                font-weight: 700;
+                                font-family: $font-fraunces;
+                                margin-bottom: 18px;
+                            }
+
+                            p {
+                                font-size: 15px;
+                                line-height: 25px;
+                            }
+
+                            .inp-radio {
+                                position: absolute;
+                                z-index: -1;
+                            }
+
+                            &:hover {
+                                background-color: #FDD6BA;
+                            }
+
+                            &:has(.inp-radio:checked) {
+                                background-color: #0E8784;
+                                color: $white-font;
+                            }
+                        }
+
+                    }
+
+                }
+
+                .order-summary--div {
+                    width: 100%;
+                    background-color: $darker-grey;
+                    border-radius: 8px;
+                    padding: 50px 25px;
+                    box-sizing: border-box;
+    
+                    h5 {
+                        font-size: 15px;
+                        color: $light-grey;
+                        margin-bottom:  21px;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        font-size: 24px;
+                        font-family: $font-fraunces;
+                        font-weight: 700;
+                        color: $white-font;
+                        line-height: 40px;
+                        max-width: 255px;
+
+                        span {
+                            color: $main-green;
+                        }
+                    }
+                }
+
+            }
+
+
+
+        }
 
     }
 

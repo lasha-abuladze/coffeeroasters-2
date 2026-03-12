@@ -153,8 +153,8 @@
                 <div class="form-div preferences-container">
 
                     <header class="question-container">
-                        <h3>How do you drink your coffee?</h3>
-                        <img src="./assets/plan/desktop/icon-arrow.svg" alt="">
+                        <h3>How do you drink <span>your coffee?</span></h3>
+                        <img class="arrow-icon" src="./assets/plan/desktop/icon-arrow.svg" alt="">
                     </header>
 
                     <div class="inputs-container">
@@ -165,13 +165,13 @@
                             <p>Compatible with Nespresso systems and similar brewers</p>
                         </label>
 
-                        <label for="filter-inp">
+                        <label for="filter-inp" class="inp-label">
                             <input type="radio" name="preferences" id="filter-inp" class="inp-radio">
                             <h4>Filter</h4>
                             <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
                         </label>
 
-                        <label for="espresso-inp">
+                        <label for="espresso-inp" class="inp-label">
                             <input type="radio" name="preferences" id="espresso-inp" class="inp-radio">
                             <h4>Espresso</h4>
                             <p>Dense and finely ground beans for an intense, flavorful experience</p>
@@ -181,6 +181,138 @@
 
                      
                 </div>
+
+                <div class="form-div bean-type--container">
+
+                    <header class="question-container">
+                        <h3>What type of <span>coffee?</span></h3>
+                        <img class="arrow-icon" src="./assets/plan/desktop/icon-arrow.svg" alt="">
+                    </header>
+
+                    <div class="inputs-container">
+
+                        <label for="single-origin-inp" class="inp-label">   
+                            <input type="radio" name="bean-type" id="single-origin-inp" class="inp-radio">
+                            <h4>Single Origin</h4>
+                            <p>Distinct, high quality coffee from a specific family-owned farm</p>
+                        </label>
+
+                        <label for="decaf-inp" class="inp-label">
+                            <input type="radio" name="bean-type" id="decaf-inp" class="inp-radio">
+                            <h4>Decaf</h4>
+                            <p>Just like regular coffee, except the caffeine has been removed</p>
+                        </label>
+
+                        <label for="blended-inp" class="inp-label">
+                            <input type="radio" name="bean-type" id="blended-inp" class="inp-radio">
+                            <h4>Blended</h4>
+                            <p>Combination of two or three dark roasted beans of organic coffees</p>
+                        </label>
+
+                    </div>                     
+                </div>
+
+                <div class="form-div quantity-container">
+
+                    <header class="question-container"> 
+                        <h3>How much would<span>you like?</span></h3>
+                        <img class="arrow-icon" src="./assets/plan/desktop/icon-arrow.svg" alt="">
+                    </header>
+
+                    <div class="inputs-container">
+
+                        <label for="250g-inp" class="inp-label">   
+                            <input type="radio" name="quantity" id="250g-inp" class="inp-radio">
+                            <h4>250g</h4>
+                            <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                        </label>
+
+                        <label for="500g-inp" class="inp-label">
+                            <input type="radio" name="quantity" id="500g-inp" class="inp-radio">
+                            <h4>500g</h4>
+                            <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+                        </label>
+
+                        <label for="1000g-inp" class="inp-label">
+                            <input type="radio" name="quantity" id="1000g-inp" class="inp-radio">
+                            <h4>1000g</h4>
+                            <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+                        </label>
+
+                    </div>                     
+                </div>
+
+                <div class="form-div grind-options-container">
+
+                    <header class="question-container"> 
+                        <h3>Want us to grind<span>them?</span></h3>
+                        <img class="arrow-icon" src="./assets/plan/desktop/icon-arrow.svg" alt="">
+                    </header>
+
+                    <div class="inputs-container">
+
+                        <label for="wholebean-inp" class="inp-label">   
+                            <input type="radio" name="grind-options" id="wholebean-inp" class="inp-radio">
+                            <h4>Wholebean</h4>
+                            <p>Best choice if you cherish the full sensory experience</p>
+                        </label>
+
+                        <label for="filter-grind-inp" class="inp-label">
+                            <input type="radio" name="grind-options" id="filter-grind-inp" class="inp-radio">
+                            <h4>Filter</h4>
+                            <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                        </label>
+
+                        <label for="cafetiere-inp" class="inp-label">
+                            <input type="radio" name="grind-options" id="cafetiere-inp" class="inp-radio">
+                            <h4>Cafetiere</h4>
+                            <p>Course ground beans specially suited for french press coffee</p>
+                        </label>
+
+                    </div>                     
+                </div>
+
+                <div class="form-div deliveries-container">
+
+                    <header class="question-container"> 
+                        <h3>How often should<span>we deliver?</span></h3>
+                        <img class="arrow-icon" src="./assets/plan/desktop/icon-arrow.svg" alt="">
+                    </header>
+
+                    <div class="inputs-container">
+
+                        <label for="every-week-inp" class="inp-label">   
+                            <input type="radio" name="deliveries" id="every-week-inp" class="inp-radio">
+                            <h4>Every week</h4>
+                            <p>$7.20 per shipment. Includes free first-class shipping.</p>
+                        </label>
+
+                        <label for="every-2weeks-inp" class="inp-label">
+                            <input type="radio" name="deliveries" id="every-2weeks-inp" class="inp-radio">
+                            <h4>Every 2 weeks</h4>
+                            <p>$9.60 per shipment. Includes free priority shipping.</p>
+                        </label>
+
+                        <label for="every-month-inp" class="inp-label">
+                            <input type="radio" name="deliveries" id="every-month-inp" class="inp-radio">
+                            <h4>Every month</h4>
+                            <p>$12.00 per shipment. Includes free priority shipping.</p>
+                        </label>
+
+                    </div>                     
+                </div>
+
+                <div class="order-summary--div">
+                    <h5>order summary</h5>
+
+                    <p>
+                        “I drink my coffee as <span>Filter</span>, 
+                        with a <span>Decaf</span> type of bean. 
+                        <span>250g</span> ground ala Cafetiére,
+                        sent to me <span>Every Week.</span>”
+                    </p>
+                </div>
+                
                 
             </form>
 

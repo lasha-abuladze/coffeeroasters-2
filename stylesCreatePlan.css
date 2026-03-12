@@ -98,5 +98,98 @@ body .main-section .section-with-decoration .articles-list .about-article .artic
   color: #FEFCF7;
   opacity: 0.7;
 }
+body .main-section .section-create-plan {
+  margin-top: 125px;
+}
+body .main-section .section-create-plan .section-aside {
+  display: none;
+}
+body .main-section .section-create-plan .order-customization-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .question-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .question-container h3 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 24px;
+  color: #83888F;
+  font-weight: 700;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .question-container h3 span {
+  display: block;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .question-container .arrow-icon {
+  transform: rotate(-180deg);
+}
+body .main-section .section-create-plan .order-customization-form .form-div .inputs-container {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .inputs-container .inp-label {
+  background-color: #eee8dd;
+  display: block;
+  position: relative;
+  padding: 33px 25px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #333D4B;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .inputs-container .inp-label h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  margin-bottom: 18px;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .inputs-container .inp-label p {
+  font-size: 15px;
+  line-height: 25px;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .inputs-container .inp-label .inp-radio {
+  position: absolute;
+  z-index: -1;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .inputs-container .inp-label:hover {
+  background-color: #FDD6BA;
+}
+body .main-section .section-create-plan .order-customization-form .form-div .inputs-container .inp-label:has(.inp-radio:checked) {
+  background-color: #0E8784;
+  color: #FEFCF7;
+}
+body .main-section .section-create-plan .order-customization-form .order-summary--div {
+  width: 100%;
+  background-color: #2C343E;
+  border-radius: 8px;
+  padding: 50px 25px;
+  box-sizing: border-box;
+}
+body .main-section .section-create-plan .order-customization-form .order-summary--div h5 {
+  font-size: 15px;
+  color: #83888F;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+}
+body .main-section .section-create-plan .order-customization-form .order-summary--div p {
+  font-size: 24px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  color: #FEFCF7;
+  line-height: 40px;
+  max-width: 255px;
+}
+body .main-section .section-create-plan .order-customization-form .order-summary--div p span {
+  color: #0E8784;
+}
 
 /*# sourceMappingURL=stylesCreatePlan.css.map */
