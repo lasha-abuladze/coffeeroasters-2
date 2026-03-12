@@ -125,6 +125,7 @@ body {
             background-color: $darker-grey;
             padding: 90px 0px 80px 0px;
             box-sizing: border-box;
+            // margin: 0px !important;
 
             .articles-list {
 
@@ -160,7 +161,7 @@ body {
             .order-customization-form {
 
                 @include flex-column();
-                gap: 100px;
+                gap: 110px;
                 
                 .form-div {
 
@@ -268,4 +269,85 @@ body {
     }
 
     
+}
+
+
+//////  T A B L E T   S C R E E N / / / / /
+
+@media (min-width: 700px) {
+
+    body {
+        
+        .main-section {
+            // position: relative;
+
+            .section-introduction {
+                background-image: url(./assets/plan/tablet/image-hero-blackcup.jpg);
+                background-size: cover;
+                margin-bottom: 140px;
+            }
+
+            // .section-with-decoration {
+            //     position: absolute;
+            //     margin: 0 !important;
+            //     width: calc(100% + 104px);
+            //     left: -52px;
+            //     top: 550px;
+
+            //     // .container-div {
+            //     //     max-width: 689px;
+            //     //     margin: auto;
+            //     // }
+
+            // }
+
+            .section-with-decoration {
+                margin: 0 !important;
+            }
+
+
+            .section-create-plan {
+                margin-top: 155px;
+
+                .order-customization-form {
+                    
+                    .form-div {
+
+                        .question-container {
+
+                            h3 {
+                                font-size: 32px;
+                                
+                                span {
+                                    display: inline
+                                }
+                            }
+                        }
+
+                        .inputs-container {
+                            margin-top: 45px;
+                            @include flex-row();
+                            gap: 5px;
+                            
+                            .inp-label {
+                                width: 218px;
+                                height: 250px;
+                            }
+                        }
+                    }
+
+                    .order-summary--div {
+                        padding: 45px 35px;
+
+                        p {
+                            max-width: 602px;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
 }
