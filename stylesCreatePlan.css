@@ -23,7 +23,7 @@
   font-style: italic;
 }
 .display-none {
-  display: none;
+  display: none !important;
 }
 
 .container {
@@ -109,6 +109,9 @@ body .main-section .section-create-plan .order-customization-form {
   flex-direction: column;
   align-items: center;
   gap: 110px;
+}
+body .main-section .section-create-plan .order-customization-form .form-div {
+  width: 100%;
 }
 body .main-section .section-create-plan .order-customization-form .form-div .question-container {
   display: flex;

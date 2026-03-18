@@ -53,7 +53,7 @@ $font-fraunces: "Fraunces", sans-serif;
 }
 
 .display-none {
-    display: none;
+    display: none !important;
 }
 
 .container {
@@ -164,7 +164,7 @@ body {
                 gap: 110px;
                 
                 .form-div {
-
+                    width: 100%;
                     .question-container {
                         @include flex-row();
                         justify-content: space-between;
