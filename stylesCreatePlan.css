@@ -228,5 +228,59 @@ body .main-section .section-create-plan .order-customization-form .order-summary
     max-width: 602px;
   }
 }
+@media (min-width: 1290px) {
+  body .main-section .section-introduction {
+    background-image: url(./assets/plan/desktop/image-hero-blackcup.jpg);
+  }
+  body .main-section .section-create-plan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: start;
+    justify-content: center;
+    gap: 124px;
+  }
+  body .main-section .section-create-plan .section-aside {
+    display: block;
+  }
+  body .main-section .section-create-plan .section-aside ul li {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333D4B;
+    font-family: "Fraunces", sans-serif;
+    margin-bottom: 32px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #83888F;
+    width: 255px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  body .main-section .section-create-plan .section-aside ul li span {
+    color: #0E8784;
+  }
+  body .main-section .section-create-plan .section-aside ul li:hover {
+    opacity: 0.7;
+  }
+  body .main-section .section-create-plan .order-customization-form .form-div .question-container h3 {
+    font-size: 40px;
+  }
+  body .main-section .section-create-plan .order-customization-form .form-div .inputs-container {
+    margin-top: 57px;
+    gap: 23px;
+  }
+  body .main-section .section-create-plan .order-customization-form .order-summary--div {
+    padding: 32px 65px;
+  }
+  body .main-section .section-create-plan .order-customization-form .btn-gen {
+    margin-left: 100%;
+    transform: translateX(-50%);
+  }
+}
 
 /*# sourceMappingURL=stylesCreatePlan.css.map */
