@@ -273,6 +273,9 @@ body .main-section .section-create-plan .order-customization-form .order-summary
     cursor: pointer;
     transition: all 0.3s;
   }
+  body .main-section .section-create-plan .section-aside ul li:first-child {
+    opacity: 1;
+  }
   body .main-section .section-create-plan .section-aside ul li span {
     color: #0E8784;
   }

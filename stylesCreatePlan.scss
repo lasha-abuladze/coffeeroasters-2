@@ -385,6 +385,10 @@ body {
                             cursor: pointer;
                             transition: all 0.3s;
 
+                            &:first-child {
+                                opacity: 1;
+                            }
+
                             span {
                                 color: #0E8784;
                             }
