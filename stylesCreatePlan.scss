@@ -122,6 +122,8 @@ body {
         }
 
         .section-with-decoration {
+            width: calc(100% + 48px);
+            transform: translateX(-24px);
             background-color: $darker-grey;
             padding: 90px 0px 80px 0px;
             box-sizing: border-box;
@@ -289,6 +291,10 @@ body {
 
             .section-with-decoration {
                 margin: 0 !important;
+                width: calc(100% + 104px);
+                transform: translateX(-52px);
+                padding: 96px 52px 66px 52px;
+
             }
 
 
@@ -347,9 +353,10 @@ body {
                 background-image: url(./assets/plan/desktop/image-hero-blackcup.jpg);
             }
 
-            // .section-with-decoration {
-                    ///  this section has bug and needs fix
-            // }
+            .section-with-decoration {
+                width: 100%;
+                transform: translateX(0px);
+            }
 
             .section-create-plan {
                 // background-color: #0E8784;
