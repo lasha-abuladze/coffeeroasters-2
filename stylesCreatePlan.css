@@ -74,6 +74,9 @@
   z-index: 2;
 }
 
+body {
+  position: relative;
+}
 body .main-section .section-introduction {
   background-image: url(./assets/plan/mobile/image-hero-blackcup.jpg);
   background-size: 120% !important;
@@ -196,8 +199,81 @@ body .main-section .section-create-plan .order-customization-form .order-summary
 body .main-section .section-create-plan .order-customization-form .order-summary--div p span {
   color: #0E8784;
 }
+body .order-summary {
+  background-color: #F2F2F2;
+  position: absolute;
+  width: calc(100% - 48px);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 35px;
+  z-index: 3;
+}
+body .order-summary h2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  color: #FEFCF7;
+  background-color: #333D4B;
+  padding: 35px 25px;
+  box-sizing: border-box;
+}
+body .order-summary .order-summary-main-text {
+  margin-top: 52px;
+  padding: 0px 25px;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #83888F;
+  font-family: "Fraunces", sans-serif;
+}
+body .order-summary .order-summary-main-text span {
+  color: #0E8784;
+}
+body .order-summary .order-sammary-sub-text {
+  font-size: 15px;
+  color: #333D4B;
+  opacity: 0.7;
+  line-height: 25px;
+  max-width: 255px;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+body .order-summary button {
+  width: 100%;
+}
 
 @media (min-width: 700px) {
+  body .order-summary {
+    background-color: #F2F2F2;
+    position: absolute;
+    max-width: 540px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 212px;
+    z-index: 3;
+  }
+  body .order-summary .order-summary-main-text {
+    padding: 0px;
+    max-width: 428px;
+    margin: auto;
+    margin-top: 52px;
+  }
+  body .order-summary .order-summary-main-text span {
+    color: #0E8784;
+  }
+  body .order-summary .order-sammary-sub-text {
+    max-width: 428px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  body .order-summary button {
+    display: block;
+    margin: auto;
+    max-width: 428px;
+  }
   body .main-section .section-introduction {
     background-image: url(./assets/plan/tablet/image-hero-blackcup.jpg);
     background-size: cover;
