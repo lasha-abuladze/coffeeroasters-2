@@ -6,6 +6,22 @@ const inpRadioArr = Array.from(document.querySelectorAll(`.inp-radio`));
 const form = document.querySelector(`.order-customization-form`);
 const answerSpanArr = document.querySelectorAll(`.answer-span`);
 const asideListLi = document.querySelectorAll(`.aside-li`);
+const btnCreatePlan = document.querySelector(`.btn-create-plan`);
+
+const summary = document.querySelector(`.order-summary`);
+const bodyBackground = document.querySelector(`.body-background`);
+
+// const orderSummaryText = document.querySelector(`.order-summary-main-text`);
+const summaryText = document.querySelector(`.summary-text`);
+
+
+const summarySubText = document.querySelector(`.order-summary-sub-text`);
+
+
+const btnCheckout = document.querySelector(`.btn-checkout`);
+
+
+
 
 
 
@@ -39,6 +55,19 @@ form.addEventListener(`change`, (e) => {
     answerSpanArr[questionNumber - 1].textContent = `${questionAnswer}`    
     if(inputContainerArr[questionNumber]) inputContainerArr[questionNumber].classList.remove(`display-none`);
 
+})
+
+btnCreatePlan.addEventListener(`click`, function() {
+    summary.classList.remove(`display-none`);
+    bodyBackground.classList.remove(`display-none`);
+    summaryText.classList.add(`order-summary-main-text`)
+
+    summary.insertBefore(summaryText, summarySubText)
+})
+
+btnCheckout.addEventListener(`click`, function() {
+    summary.classList.add(`display-none`);
+    bodyBackground.classList.add(`display-none`)
 })
 
 

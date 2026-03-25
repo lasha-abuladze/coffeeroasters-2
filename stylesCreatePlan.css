@@ -77,6 +77,16 @@
 body {
   position: relative;
 }
+body .body-background {
+  width: 100%;
+  height: 100%;
+  background-color: #333D4B;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  opacity: 0.5;
+}
 body .main-section .section-introduction {
   background-image: url(./assets/plan/mobile/image-hero-blackcup.jpg);
   background-size: 120% !important;
@@ -230,7 +240,7 @@ body .order-summary .order-summary-main-text {
 body .order-summary .order-summary-main-text span {
   color: #0E8784;
 }
-body .order-summary .order-sammary-sub-text {
+body .order-summary .order-summary-sub-text {
   font-size: 15px;
   color: #333D4B;
   opacity: 0.7;
@@ -242,6 +252,13 @@ body .order-summary .order-sammary-sub-text {
 }
 body .order-summary button {
   width: 100%;
+  height: 56px;
+  background-color: #0E8784;
+  color: #FEFCF7;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Fraunces", sans-serif;
+  border-radius: 6px;
 }
 
 @media (min-width: 700px) {
@@ -253,6 +270,7 @@ body .order-summary button {
     transform: translateX(-50%);
     top: 212px;
     z-index: 3;
+    padding-bottom: 15px;
   }
   body .order-summary .order-summary-main-text {
     padding: 0px;
@@ -263,7 +281,7 @@ body .order-summary button {
   body .order-summary .order-summary-main-text span {
     color: #0E8784;
   }
-  body .order-summary .order-sammary-sub-text {
+  body .order-summary .order-summary-sub-text {
     max-width: 428px;
     margin: auto;
     margin-top: 20px;
