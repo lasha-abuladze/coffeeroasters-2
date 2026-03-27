@@ -268,7 +268,7 @@ body .order-summary button {
     max-width: 540px;
     left: 50%;
     transform: translateX(-50%);
-    top: 212px;
+    top: 102px;
     z-index: 3;
     padding-bottom: 15px;
   }

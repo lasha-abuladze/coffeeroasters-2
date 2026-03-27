@@ -11,7 +11,7 @@ const btnCreatePlan = document.querySelector(`.btn-create-plan`);
 const summary = document.querySelector(`.order-summary`);
 const bodyBackground = document.querySelector(`.body-background`);
 
-// const orderSummaryText = document.querySelector(`.order-summary-main-text`);
+const orderSummaryText = document.querySelector(`.order-summary-main-text`);
 const summaryText = document.querySelector(`.summary-text`);
 
 
@@ -19,6 +19,7 @@ const summarySubText = document.querySelector(`.order-summary-sub-text`);
 
 
 const btnCheckout = document.querySelector(`.btn-checkout`);
+
 
 
 
@@ -57,17 +58,33 @@ form.addEventListener(`change`, (e) => {
 
 })
 
-btnCreatePlan.addEventListener(`click`, function() {
+btnCreatePlan.addEventListener(`click`, function(e) {
+    e.preventDefault();
+
+    window.scrollTo({
+        top: 0,
+        behavior: `smooth`,
+    })
+
+    body.style.overflow = `hidden`;
+
     summary.classList.remove(`display-none`);
     bodyBackground.classList.remove(`display-none`);
-    summaryText.classList.add(`order-summary-main-text`)
+    summaryText.classList.add(`order-summary-main-text`);
 
-    summary.insertBefore(summaryText, summarySubText)
+    summary.insertBefore(summaryText, summarySubText);
+    
 })
 
-btnCheckout.addEventListener(`click`, function() {
+btnCheckout.addEventListener(`click`, function(e) {
+    e.preventDefault();
     summary.classList.add(`display-none`);
-    bodyBackground.classList.add(`display-none`)
+    bodyBackground.classList.add(`display-none`);
+
+    body.style.overflow = `visible`;
+
+    window.location.reload();
+    
 })
 
 
